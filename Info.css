@@ -1,0 +1,126 @@
+*{
+  margin:0;
+
+}
+
+body{
+  background-color: #fff1e6;
+}
+.banner{
+  background-color: #ffffff;
+  height:700px;
+}
+.navBar{
+  display:flex;
+/*background-color: #FFF1E6;*/
+  padding-left:15px;
+  padding-right:20px;
+  padding-bottom: 5px;
+  padding-top:5px;
+ box-shadow:1px 1px 4px 0 rgba(0,0,0,.1);
+}
+.navBar h2{
+
+  font-family: 'Scheherazade', serif;
+  font-weight: 350;
+  font-size:30px;
+  letter-spacing: 6px;
+  padding-right: 50px;
+ 
+}
+
+
+.navBar a{
+  text-decoration: none;
+  color: black;
+}
+.navBar a:hover{
+  text-decoration: none;
+  color: #dfe7fd;
+  transition:.5s;
+}
+.Splace{
+  margin-right: 100px;
+  margin-left: 30px;
+}
+.bottomBanner{
+  display:flex;
+  justify-content: space-around;
+}
+.coverImage{
+  width:500px;
+  height:500px;
+  margin-top:30px;
+  box-shadow: 20px 20px 20px 18px  #fff1e6;
+}
+.leftSide{
+  height:300px;
+  margin-top: 200px;
+}
+.motto{
+  padding:20px;
+  font-size: 40px;
+   font-family: 'Scheherazade', serif;
+   font-weight: 350;
+}
+.GetStarted{
+  padding:15px;
+  background-color: #DFE7FD;
+  border-style: none;
+  margin-left:130px;
+  letter-spacing: 5px;
+  border-radius: 12px;
+}
+.GetStarted a{
+  text-decoration: none;
+  color:black;
+}
+.GetStarted a:hover{
+  color:white;
+  transition:.5s;
+}
+
+.Questions{
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  margin:50px;
+  margin-top:70px;
+  
+
+}
+.Questions h3{
+  padding:20px;
+  font-size:30px;
+  color:#cddafd;
+}
+.Questions p{
+  padding:20px;
+  font-weight:200;
+  font-size:20px;
+  color:black;
+}
+.QuestionCon{
+  height:330px;
+  width:400px;
+  background-color: white;
+  margin-bottom: 40px;
+  box-shadow: 10px 10px 5px #cddafd;
+
+}
+.footer{
+  height:500px;
+  background-color: #dfe7fd;
+}
+.Info{
+  margin-right: 550px;
+}
+/*
+.Login{
+  border:1px solid black;
+  padding-left:25px;
+  border-radius: 12px;
+  width:50px;
+
+ 
+}*/

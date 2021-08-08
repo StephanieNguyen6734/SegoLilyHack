@@ -1,0 +1,173 @@
+*{
+  margin:0;
+
+}
+
+.banner{
+  background-color: #ffffff;
+  height:650px;
+}
+.navBar{
+  display:flex;
+/*background-color: #FFF1E6;*/
+  padding-left:15px;
+  padding-right:20px;
+  padding-bottom: 5px;
+  padding-top:5px;
+ box-shadow:1px 1px 4px 0 rgba(0,0,0,.1);
+}
+.navBar h2{
+ 
+  font-family: 'Scheherazade', serif;
+  font-weight: 350;
+  font-size:30px;
+  letter-spacing: 6px;
+  padding-right: 50px;
+ 
+}
+
+.navBar a{
+  text-decoration: none;
+  color: black;
+}
+.navBar a:hover{
+  text-decoration: none;
+  color: #dfe7fd;
+  transition:.5s;
+}
+.Splace{
+  margin-right: 100px;
+  margin-left:30px;
+
+}
+
+.footer{
+  height:500px;
+  background-color: #dfe7fd;
+}
+.clickCon{
+  display: flex;
+  justify-content: center;
+
+}
+html {
+  scroll-behavior: smooth;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: black;
+  
+ } 
+ 
+ #down {
+  margin-top: 3%;
+  padding-bottom: 0%;
+ } 
+ .ButtonCon{
+   display: inline-block;
+ }
+ .ButtonCon a{
+   position: relative;
+ }
+ .JournalBanner{
+   height:450px;
+    display: flex;
+   justify-content: center;
+   margin-top:30px;
+   background-color: white;
+  
+ }
+ .ScrollButton{
+  padding:10px;
+  border: none;
+  border-radius: 12px;
+  background-color:#cddafd;
+  margin-bottom:20px;
+}
+.ScrollButton:hover{
+  background-color: #fcf1ec;
+  color:#d8a79f;
+  transition:.5s;
+}
+
+.InputCon{
+  display: flex;
+  justify-content: center;
+  
+ 
+}
+.InputBox{
+  height:100px;
+  width:700px;
+  background-color: #DFE7FD;
+  font-size:30px;
+  letter-spacing: 5px;
+  font-weight: 200;
+  font-family: 'Scheherazade', serif;
+  padding-left: 50px;
+ border:none;
+  border-radius: 12px;
+  margin-top:30px;
+}
+.Submit{
+  
+  margin:10px;
+  background-color: #fff1e6;
+  border:none;
+   border-radius: 12px;
+   margin-left:50px;
+   height:55px;
+   width:100px;
+   margin-top:50px;
+}
+.Submit:hover{
+  color:#cddafd;
+  border-radius: 12px;
+}
+.EntryCon{
+ display: flex;
+ justify-content: center;
+}
+.Entry{
+
+ width:500px;
+ height:600px;
+ background-color: #fff1e6;
+ padding:20px;
+margin:50px;
+
+
+ 
+}
+.Moods{
+  display: flex;
+  justify-content: center;
+
+  padding:20px;
+  
+}
+.Moods button{
+    width:200px;
+    padding:13px;
+    margin:20px;
+    background-color: #eae4e9;
+    border:none;
+    border-radius: 12px;
+}
+.RealBanCon{
+  background-color: white;
+}
+.Info{
+    margin-right:550px;
+}
+/*
+.Login{
+  border:1px solid black;
+  padding-left:8px;
+  border-radius: 12px;
+  width:65px;
+
+ 
+}*/
+
